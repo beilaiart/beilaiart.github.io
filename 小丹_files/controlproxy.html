@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)http://xiaodan560.lofter.com/controlproxy.html#dimension=425,32 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>proxy</title>
+<script>
+(function(){
+try{
+    var dimension = location.hash.replace(/#?dimension=/, '').split(','),
+        iframe = parent.parent.document.getElementById('control_frame');
+    iframe.setAttribute('width', dimension[0] + 'px');
+    iframe.setAttribute('height', dimension[1] + 'px');
+    iframe.width =  dimension[0] + 'px';
+    iframe.height =  dimension[1] + 'px';
+    iframe.style.width = dimension[0] + 'px';
+    iframe.style.height = dimension[1] + 'px';
+}catch(ex){}
+})();
+</script>
+</head>
+<body>
+
+</body></html>
